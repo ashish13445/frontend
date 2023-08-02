@@ -1,0 +1,21 @@
+td {
+    text-align: center;
+    border-color: black;
+    border-width: 1px;
+}
+td:hover {
+    background-color:orange;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 330px) {
+    .calculator {
+        height: 100%;
+        width : 100%;
+    }
+  }
+
+  .calculator {
+    height:529px;
+    width: 278px;
+  }
